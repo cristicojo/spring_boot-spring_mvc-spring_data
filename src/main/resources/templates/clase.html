@@ -1,7 +1,7 @@
 <html xmlns:th="http://www.w3.org/1999/xhtml">
 <head><title>Home Page</title></head>
 <body>
-<h1>Hello !</h1>
+<h1>Clase</h1>
 
 <ol th:each="clasa : ${clase}">
     <a th:text="${clasa.numeClasa}" th:href="@{|~/elevi/${clasa.numeClasa}|}"></a>
